@@ -1,0 +1,11 @@
+name: Test
+on:
+  push:
+
+jobs:
+  test:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+    - uses: check-spelling-sandbox/sturdy-tribble@main
